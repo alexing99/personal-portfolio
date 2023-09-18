@@ -1,0 +1,104 @@
+/* toggle right thing that sends the current ones scattering in 
+different directions, and incoming ones also random directions? or just phade in? */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: beige;
+  background-image: url("/images/vecteezy_simple-background-abstract-design-and-very-sweet-color_17761440_203/vecteezy_simple-background-abstract-design-and-very-sweet-color_17761440.jpg");
+}
+
+.portrait {
+  width: 280px;
+  height: auto;
+  margin: 20px;
+  margin-right: 0px;
+  box-shadow: 5px 5px 5px rgb(235, 196, 129);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-right: 0px;
+}
+
+.contact-icons {
+  height: 20px;
+}
+
+.about-me {
+  border: none;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+
+  width: auto;
+  margin-left: 0px;
+  max-height: 400px;
+  max-width: 600px;
+  min-width: 230px;
+  box-shadow: 5px 5px 5px rgb(233, 143, 86);
+}
+
+.about-icons {
+  align-self: flex-end;
+}
+
+.portrait-container {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.name {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  font-size: 1.7em;
+  padding: 5px;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em 4em;
+}
+
+.projects {
+  max-width: 200px;
+  max-height: auto;
+  box-shadow: 2px 3px 3px grey;
+}
+
+.proj-text {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  padding: 8px;
+  margin-top: -4px;
+  max-width: 200px;
+  height: 100px;
+}
+
+.proj-img {
+  width: 200px;
+  height: 150px;
+  object-fit: fill;
+  margin-bottom: 0px;
+}
+h4 {
+  margin: 5px;
+}
+
+.proj-text,
+i {
+  align-self: end;
+  justify-self: end;
+}
+
+.proj-text,
+p {
+  font-size: 0.8em;
+}
